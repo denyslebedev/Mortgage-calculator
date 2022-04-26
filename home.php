@@ -1,5 +1,6 @@
 <?php
-$connect = new PDO('mysql:host=127.0.0.1;dbname=nov', 'root', '');
+require 'config.php';
+$connect = new PDO("mysql:host=$server;dbname=$database_name", $database_user, $database_passwd);
 session_start();
 
 	/*** Important do not change ***/
@@ -7,7 +8,7 @@ session_start();
 		header("Location: index.php");
 		exit();
 	}
-	/*** Important END ***/
+	/*** Important END ,,,***/
 
 ?>
 <!DOCTYPE html>
@@ -152,7 +153,7 @@ if(isset($_POST['email']) && isset($_POST['password']) && isset($_POST['id']) &&
         $prepre = $row["prepre"];
         $pre = $row["pre"];
         $current = $row["current"];
-        if(empty($current)) $current=1;
+        if(empty($current)) { $current=1; $flag_cur=1; }
 
 
     echo " <section class='container'>
@@ -233,6 +234,8 @@ if(isset($_POST['email']) && isset($_POST['password']) && isset($_POST['id']) &&
             $bot_res=$p_pow-1;
             //echo $row1["loan_term"].'!!!!'.$top_res.'='.$bot_res.'=--'.$percent_1.'-'.$p_pow;
             $month_payment=round(($top_res/$bot_res),2);
+            if($flag_cur!=1)
+        {
             for($i1=1; $i1<=$row1["loan_term"]; $i1++)
             {
                         
@@ -248,6 +251,7 @@ if(isset($_POST['email']) && isset($_POST['password']) && isset($_POST['id']) &&
                         $i1=$row1["loan_term"]+1;
                         }
             }
+        }
 
             ?>
             
