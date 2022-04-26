@@ -3,3 +3,4 @@
 Імпортуйте БД та таблиці з файлу nov.sql у MySQL
 Змініть дані для доступу до БД у config.php
 Запустіть index.php :-)
+Test here - http://tork.yw.co.ua/home.php
