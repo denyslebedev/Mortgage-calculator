@@ -1,0 +1,203 @@
+ * {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+ }
+ .container{
+        max-width: 1105px;   
+        margin: 0px auto;
+     }
+
+   .header{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px auto;
+   }
+.nav-li{
+   display: inline-block;
+}
+.nav-link{
+   color: black;
+   text-decoration: none;
+}
+
+.nav-link:hover{
+   color: #FA4A0C;
+}
+
+.nav-li:not(:last-of-type){
+   margin-right: 90px;
+}
+
+.app {
+    background-image: url("../new/bg_2.jpg");
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 80px 0 162px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+     .app-pretitle{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+     }
+     .app-title{
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;    
+        text-align: center;
+        letter-spacing: 0.2px;
+        max-width: 650px;
+        margin: 10px auto;
+     }
+     .app-text{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        /* or 158% */
+        
+        text-align: center;
+        letter-spacing: 0.2px;
+        
+        color: #0f0f0f;
+        margin-bottom: 54px;
+     }
+     .button{
+        width: 276px;
+        height: 68px;
+        left: 454px;
+        top: 388px;
+        color: white;
+        border-radius: 30px;
+
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+     }
+     .button:first-of-type{
+         background: #FA4A0C;
+         border: 1px solid #FA4A0C;
+         margin-right: 67px;
+     }
+     .button:last-of-type{
+         background: #FA4A0C;
+         border: 1px solid white;
+     }
+
+     .bot{
+        background-image: url("../new/bg_3.jpg");
+        color: rgb(7, 7, 7);
+        text-align: center;
+        padding: 80px 0 162px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+
+     .bot-pretitle{
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 57px;
+        /* identical to box height, or 142% */
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 0.2px;
+     }
+     .bot-title{
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 38px;
+        /* identical to box height, or 158% */
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 0.2px;
+     }
+     .button1{
+        margin-top: 49px;
+        color: white;
+        border-radius: 10px;
+
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+     }
+     .button1:first-of-type{
+         background: #FA4A0C;
+         border: 1px solid #FA4A0C;
+         margin-right: 16px;
+         width: 152px;
+         height: 64px;
+     }
+     .button1:last-of-type{
+         background: #0683e9;
+         border: 1px solid white;
+         width: 173px;
+        height: 60px;
+        left: 158px;
+        top: 2px;
+     }
+     .mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     .mob-pretitle{
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;   
+      color: #FA4A0C;
+     }
+     .mob-title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;    
+      color: #252B42;
+      max-width: 560px;
+     }
+     .mob-text{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;    
+      color: #737373;
+      max-width: 400px;
+     }
+
+     .mob-title1{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;    
+      color: #252B42;
+      max-width: 480px;
+     }
+     .mob-text1{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;    
+      color: #737373;
+      max-width: 462px;
+     }
+
+     .main-title{
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 36px;
+      color: #000000;
+      margin-top: 56px;
+      margin-bottom: 70px;
+     }
+     .mobile1{
+        text-align: center;
+     }
+     .marg-108-190{
+        margin-top: 108px;
+        margin-bottom: 190px;
+     }
+
+     .slide-text-bg2 span { background-color: rgba(177, 198, 219, 0.8); color: #4d4c4c; text-shadow: 0 0px 1px rgba(155, 155, 155, 0.7); }
